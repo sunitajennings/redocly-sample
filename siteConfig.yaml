@@ -15,6 +15,7 @@ toc:
   enable: true
 oasDefinitions:
   petstore: ./openapi/petstore.yaml
+  mxplatform: https://api.redocly.com/registry/bundle/mxdx/MX%20API/PlatformAPI/openapi.yaml
   # add links to definitions in our API registry by using a fully qualified URL.
 stylesheets:
   - https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap
@@ -27,10 +28,19 @@ stylesheets:
 #  - ./static/intercom.js
 nav:
 
-  - label: Training exercises
-    page: developer-portal/index.md
+  - label: Products
+    page: products/index.md
 
-  - label: External docs
+  - label: Use cases
+    page: usecases/index.md
+
+  - label: API reference
+    page: https://api.redocly.com/registry/bundle/mxdx/MX%20API/PlatformAPI/openapi.yaml
+
+  - label: More APIs
+    page: moar/index.md
+
+  - label: Resources
     icon: ./images/redocly-icon-white.png
     href: https://redoc.ly/docs/developer-portal/introduction/
 
