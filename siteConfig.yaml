@@ -29,16 +29,16 @@ stylesheets:
 nav:
 
   - label: Products
-    page: products/index.md
+    page: mxdocs/products/index.md
 
   - label: Use cases
-    page: usecases/index.md
+    page: mxdocs/usecases/index.md
 
   - label: API reference
-    page: https://api.redocly.com/registry/bundle/mxdx/MX%20API/PlatformAPI/openapi.yaml
+    page: openapi/reference.page.yaml/*
 
   - label: More APIs
-    page: moar/index.md
+    page: mxdocs/moar/index.md
 
   - label: Resources
     icon: ./images/redocly-icon-white.png
