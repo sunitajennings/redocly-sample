@@ -35,7 +35,7 @@ nav:
     page: mxdocs/usecases/index.md
 
   - label: API reference
-    page: openapi/reference.page.yaml/*
+    page: openapi/petstore.yaml
 
   - label: More APIs
     page: mxdocs/moar/index.md
